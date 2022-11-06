@@ -1,0 +1,1 @@
+ACTION=="add",KERNEL=="sd*", SUBSYSTEMS=="usb", ATTRS{product}=="*", RUN+="/mnt/raid/Gradlog/usbhook.sh %k"
