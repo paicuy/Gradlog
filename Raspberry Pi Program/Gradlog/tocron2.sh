@@ -1,7 +1,7 @@
 #!/bin/bash
 ## This script is run daily as a cronjob
 # /etc/crontab
-# 0 0 * * MON	root	/mnt/raid/Gradlog/tocron2.sh
+# 30 6 * * *	root	/mnt/raid/Gradlog/tocron2.sh
 
 SRC="/mnt/raid/Gradlog/export"
 
